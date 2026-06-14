@@ -41,7 +41,9 @@
       {
         "group": "Start Here",
         "icon": "map",
-        "pages": []
+        "pages": [
+          "api-overview"
+        ]
       }
     ]
   },
