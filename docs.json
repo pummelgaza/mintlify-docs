@@ -37,7 +37,12 @@
         }
       ]
     },
-    "groups": []
+    "groups": [
+      {
+        "group": "Untitled Group",
+        "pages": []
+      }
+    ]
   },
   "logo": {
     "light": "/logo/GuardixBlack.png",
