@@ -23,22 +23,17 @@
         {
           "anchor": "Website",
           "icon": "globe",
-          "href": "https://guardix.xyz"
+          "href": "https://pummelgaza.com"
         },
         {
           "anchor": "Blog",
-          "href": "https://guardix.xyz/blog",
+          "href": "https://pummelgaza.com/blog",
           "icon": "newspaper"
-        },
-        {
-          "anchor": "Discord",
-          "icon": "discord",
-          "href": "https://guardix.xyz/discord"
         },
         {
           "anchor": "X (Twitter)",
           "icon": "x-twitter",
-          "href": "https://x.com/useguardix"
+          "href": "https://x.com/pummelgaza"
         }
       ]
     },
