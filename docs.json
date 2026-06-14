@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "aspen",
-  "name": "Public CDN Documentation",
+  "name": "Guardix Documentation",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#00C79C",
+    "light": "#3BE6BF",
+    "dark": "#009E7D"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -21,62 +21,68 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "Website",
+          "icon": "globe",
+          "href": "https://guardix.xyz"
         },
         {
           "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
+          "href": "https://guardix.xyz/blog",
           "icon": "newspaper"
+        },
+        {
+          "anchor": "Discord",
+          "icon": "discord",
+          "href": "https://guardix.xyz/discord"
+        },
+        {
+          "anchor": "X (Twitter)",
+          "icon": "x-twitter",
+          "href": "https://x.com/useguardix"
         }
       ]
     },
-    "groups": [
-      {
-        "group": "Start Here",
-        "icon": "map",
-        "pages": []
-      }
-    ]
+    "groups": []
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/GuardixBlack.png",
+    "dark": "/logo/GuardixWhite.png"
   },
   "navbar": {
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "https://guardix.xyz/discord",
+        "icon": "discord"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "https://app.mintlify.com"
+      "href": "https://guardix.xyz/dashboard"
     }
   },
   "contextual": {
     "options": [
-      "copy",
-      "view",
       "chatgpt",
-      "claude",
-      "perplexity",
-      "mcp",
-      "cursor",
-      "vscode"
+      "perplexity"
     ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/useguardix",
+      "discord": "https://guardix.xyz/discord",
+      "website": "https://guardix.xyz"
     }
   },
   "icons": {
     "library": "fontawesome"
+  },
+  "errors": {
+    "404": {
+      "redirect": false,
+      "title": "Nothing to see here",
+      "description": "This page doesn’t exist. Try checking the URL or heading back."
+    }
   }
 }
