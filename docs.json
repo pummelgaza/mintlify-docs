@@ -39,7 +39,8 @@
     },
     "groups": [
       {
-        "group": "Untitled Group",
+        "group": "Start Here",
+        "icon": "map",
         "pages": []
       }
     ]
