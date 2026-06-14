@@ -34,16 +34,11 @@
     },
     "groups": [
       {
-        "group": "Getting Started",
+        "group": "Start Here",
+        "icon": "map",
         "pages": [
-          "index",
-          "quickstart"
+          "api-overviews"
         ]
-      },
-      {
-        "group": "Legal",
-        "icon": "newspaper",
-        "pages": []
       }
     ]
   },
