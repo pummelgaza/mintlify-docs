@@ -31,7 +31,21 @@
           "icon": "newspaper"
         }
       ]
-    }
+    },
+    "groups": [
+      {
+        "group": "Getting Started",
+        "pages": [
+          "index",
+          "quickstart"
+        ]
+      },
+      {
+        "group": "Legal",
+        "icon": "newspaper",
+        "pages": []
+      }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
