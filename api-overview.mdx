@@ -19,8 +19,28 @@ https://cdn.pummelgaza.com
 
 ## **Authentication**
 
-All protected endpoints use query parameters. An example is listed below
+All protected endpoints use query parameters at the end of each endpoint. An example is listed below
 
 ```text
 ?apikey=YOUR_API_KEY
+```
+
+## Reponses
+
+A succesful response may look like the one below
+
+```text
+{
+Status: 200
+Content-Type: image/png
+Download complete
+}
+```
+
+A failed response may look like 
+
+```text
+Status: 403
+Content-Type: application/json; charset=utf-8
+{"error":"Invalid API key"}
 ```
